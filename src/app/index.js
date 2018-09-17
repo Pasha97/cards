@@ -37,8 +37,6 @@ $('._name').keyup(function(){
 
 $('#target').on('submit', function() {
 
-    let error = 0;
-
     $('._card, ._name').filter(function(){
         return $(this).toggleClass('empty', !this.value || $(this).val().length < 4)
     });
