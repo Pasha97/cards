@@ -1,0 +1,11 @@
+@import "../common/colors.scss";
+
+.list{
+  padding: 10px;
+  border: 1px solid $border-color;
+
+  &+&{
+    margin-left: 8px;
+  }
+
+}

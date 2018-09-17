@@ -1,0 +1,9 @@
+@import "../common/colors.scss";
+
+.link{
+  display: flex;
+  color: $color-text-nav;
+  background-color: $background-color-nav;
+  font-family: OpenSans-Bold;
+
+}

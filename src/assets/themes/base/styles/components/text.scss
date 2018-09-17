@@ -1,0 +1,16 @@
+@import "../common/colors.scss";
+
+.text {
+
+  &._font {
+  font-family: OpenSans-Bold;
+  }
+
+  &._color {
+    color: $color-text-dark;
+  }
+
+  &._size-m{
+    font-size: 22px;
+  }
+}

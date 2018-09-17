@@ -1,0 +1,10 @@
+@import "../common/colors.scss";
+
+.footer{
+  width: 100%;
+  margin-top: 28px;
+  padding: 25px 30px;
+  background-color: $background-color-footer;
+  font-size: 12px;
+  line-height: 1.5;
+}

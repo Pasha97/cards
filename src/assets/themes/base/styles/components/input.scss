@@ -1,0 +1,27 @@
+
+.input {
+  width: 318px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid rgb(228,233,238);
+
+  &._card {
+    width: 65px;
+    padding: 8px;
+
+    font-size: 20px;
+    & + & {
+      margin-left: 9px;
+    }
+
+    &-code {
+    width: 130px;
+    font-size: 20px;
+  }
+}
+
+}
+
+.empty{
+  border: 1px solid red;
+}
