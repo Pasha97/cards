@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import '../assets/themes/base/styles/base.scss';
+import  '../assets/themes/base/styles/fonts/OpenSans-Bold.ttf' ;
 
 //Цвет фона в меню
 $('.link').on('focus', function(){
@@ -25,7 +26,7 @@ $('._card').keyup(function() {
 
 //Ввод только цифр
 $('._card, ._card-code').keyup(function(){
-    this.value = this.value.replace(/[^0-9]/, '');
+    this.value = this.value.replace(/[^0-9]/,'');
 });
 
 //Ввод только латинских букв
@@ -34,10 +35,7 @@ $('._name').keyup(function(){
 });
 
 //Проверка форм
-
 $('#target').on('submit', function() {
-
-    let error = 0;
 
     $('._card, ._name').filter(function(){
         return $(this).toggleClass('empty', !this.value || $(this).val().length < 4)

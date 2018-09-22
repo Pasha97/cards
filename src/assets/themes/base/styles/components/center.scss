@@ -1,6 +1,8 @@
 @import "../common/media.scss";
 
 .center {
+  display: flex;
+  width: 960px;
 
   &-wrapper {
     display: flex;
